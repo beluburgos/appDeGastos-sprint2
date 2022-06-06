@@ -1,3 +1,3 @@
 # appDeGastos-sprint2
 
-App que sirve para discriminar gastos grupales, es decir permite detallar gastos individuales, que luego suma y divide equitativamente el monto total gastado entre todos los integrantes del grupo.
+App que sirve para discriminar gastos grupales, es decir, permite detallar los gastos por individuo, mientras los suma y divide el total equitativamente entre todos los participantes.
