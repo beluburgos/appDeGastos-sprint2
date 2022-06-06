@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>App de gastos</title>
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header>
+      <div class="container-fluid text-light p-0">
+        <div class="row">
+          <div class="col-12 bg-primary text-center p-4">
+            <h1><b>App de gastos</b></h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 bg-primary text-center p-2">
+            <h5>Ingresa cuánto pagó cada persona</h5>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- FORMULARIO DE INGRESO -->
+
+    <div class="controles">
+      <!-- ingreso nombre -->
+
+      <div class="form-floating mt-3 mb-3">
+        <input type="text" class="form-control" id="InputNombre" />
+        <label for="floatingInput">Nombre</label>
+      </div>
+
+      <!-- ingreso gasto -->
+
+      <div class="form-floating">
+        <input type="number" class="form-control" id="InputGasto" />
+        <label for="floatingPassword">Monto</label>
+      </div>
+
+      <div class="d-grid gap-2 col-4 mx-auto mt-4">
+        <button class="btn btn-danger" type="button" onclick="obtenerDatos()">
+          Enviar
+        </button>
+      </div>
+
+      <!-- MOSTRAR DATOS -->
+
+      <div class="border border-dark mt-4 rounded" id="registro">
+        <h4 class="mt-2 mb-2"><b>Detalle</b></h4>
+      </div>
+    </div>
+    <footer>
+      <div class="container mt-3">
+        <h3 id="totales">Total: $0</h3>
+        <h3 id="promedio">A cada uno le toca aportar: $0</h3>
+      </div>
+    </footer>
+
+ 
+  </body>
+</html>
